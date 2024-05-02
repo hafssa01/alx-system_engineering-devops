@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Displays "Best School" 10 times using until loop.
+
+cnt=o
+
+until [cnt ge 10]
+do
+	echo "Best School"
+	(( cnt++ ))
+done
