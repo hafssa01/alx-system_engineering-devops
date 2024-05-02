@@ -3,7 +3,7 @@
 
 cnt=o
 
-until [cnt ge 10]
+until [ $cnt -eq 10 ]
 do
 	echo "Best School"
 	(( cnt++ ))
