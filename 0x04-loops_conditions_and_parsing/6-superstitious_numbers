@@ -7,13 +7,13 @@ while [ $cnt -le 20 ]
 do
     case $cnt in
         4)
-            echo "$cnt and then bad luck from China"
+            echo -e "$cnt\nbad luck from China"
             ;;
         9)
-            echo "$cnt and then bad luck from Japan"
+            echo -e "$cnt\nbad luck from Japan"
             ;;
         17)
-            echo "$cnt and then bad luck from Italy"
+            echo -e "$cnt\nbad luck from Italy"
             ;;
         *)
             echo "$cnt"
