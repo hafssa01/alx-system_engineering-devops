@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Usining a while loop to display numbers from 1 to 20
 # Displaying specific messages for certain loop iterations using case statement
 
