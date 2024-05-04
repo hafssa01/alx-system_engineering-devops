@@ -6,11 +6,11 @@ cnt=0
 
 while [ $cnt -lt 10 ]
 do
-	echo "Best School"
 	if [ $cnt -eq 9 ]
 	then
 		echo "Hi"
 	fi
+	echo "Best School"
 	(( cnt++ ))
 
 done
