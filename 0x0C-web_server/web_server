@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# server-01 login
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/authorized_key
+
+ssh ubuntu@100.27.2.108
