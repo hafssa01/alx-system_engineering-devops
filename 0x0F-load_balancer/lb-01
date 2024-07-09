@@ -1,0 +1,11 @@
+#/usr/bin/env bash
+# load-balancer login commands
+
+# setting up the SSH-agent
+eval $("ssh-agent")
+
+# path to IdentityFile
+ssh-add ~/.ssh/authorized_key
+
+# username and IP address
+ssh ubuntu@34.232.69.245
