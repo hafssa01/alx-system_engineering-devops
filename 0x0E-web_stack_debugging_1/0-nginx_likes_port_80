@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Update Nginx configuration to listen on port 80
+echo "server {
+    listen 80;
+    location / {
+        return 200 'Hello from Nginx!';
+    }
+}" > /etc/nginx/sites-available/default
+
+service nginx restart
